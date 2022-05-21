@@ -16,7 +16,7 @@ $(function () {
 })
 // 获取layui
 const layer = layui.layer
-const getUserInfo = () => {
+function  getUserInfo(){
     $.ajax({
         type: "GET",
         url: '/my/userinfo',
