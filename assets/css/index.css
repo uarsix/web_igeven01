@@ -49,3 +49,6 @@ iframe {
   top: 4px;
   margin-right: 10px;
 }
+a {
+  transition: none !important;
+}
